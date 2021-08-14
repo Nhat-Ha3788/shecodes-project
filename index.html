@@ -5,10 +5,22 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Hoang Nhat Ha</title>
 
-    <!-- <script>document.documentElement.classList.remove('no-js');</script> -->
-    <!-- <script type="text/javascript" src="js-webpage.js"></script> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lobster&family=Oswald:wght@300&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
@@ -21,10 +33,14 @@
     <input type="checkbox" id="check">
     <label for="check">
         <i class="fas fa-bars" id="btn"></i>
-        <i class="fas fa-times" id="cancel"></i>
+        <!-- <i class="fas fa-times" id="cancel"></i> -->
     </label>
     <div class="sidebar">
-        <header>Menu</header>
+        <label for="check">
+            <i class="fas fa-times" id="cancel"></i>
+
+            <!-- <i class="fas fa-times" id="menu"></i> -->
+        </label>
         <a href="#">
             <!--class="active" -->
             <i class="fas fa-qrcode"></i>
@@ -42,46 +58,38 @@
             <i class="fas fa-calendar"></i>
             <span>Blogs</span>
         </a>
-        <!-- <a href="#">
-            <i class="far fa-question-circle"></i>
-            <span>About</span>
-        </a>
-        <a href="#">
-            <i class="fas fa-sliders-h"></i>
-            <span>Services</span>
-        </a>
-        <a href="#">
-            <i class="far fa-envelope"></i>
-            <span>Contact</span>
-        </a> -->
+
     </div>
 
-    <!-- <div class="content"> -->
     <main>
         <div class="logo-contact">
             <div class="logo animation-item">
-                <h1><a href="#">Hoang <br>Nhat Ha</a></h1>
+                <h1 data-aos="fade-down"><a href="#">Hoang <br>Nhat
+                        Ha</a></h1>
             </div>
             <div class="contact">
-                <a class="contact-logo" href="">
-                    <img src="facebook.png" alt="">
+                <a class="contact-logo" data-aos="fade-left" data-aos-delay="100" href="">
+                    <img src="facebook.svg" alt="">
                     <span>Facebook</span> </a>
-                <a class="contact-logo" href="">
-                    <img src="instagram.png" alt="">
+                <a class="contact-logo" data-aos="fade-left" data-aos-delay="200" href="">
+                    <img src="instagram_2.svg" alt="">
                     <span>Instagram</span> </a>
-                <a class="contact-logo" href="">
-                    <img src="twitter(1).png" alt="">
+                <a class="contact-logo" data-aos="fade-left" data-aos-delay="300" href="">
+                    <img src="twitter.svg" alt="">
                     <span>Twitter</span> </a>
-                <a class="contact-logo" href="">
-                    <img src="linkedin.png" alt="">
+                <a class="contact-logo" data-aos="fade-left" data-aos-delay="400" href="">
+                    <img src="linkedin_2.svg" alt="">
                     <span>LinkedIn</span> </a>
+                <a class="contact-logo" data-aos="fade-left" data-aos-delay="500" href="">
+                    <img src="gmail.svg" alt="">
+                    <span>Email</span> </a>
             </div>
         </div>
-        <div class="intro animation-item type-primary">
+        <div class="intro " data-aos="fade-down">
             <div class="intro-content">
-                <h1 class="type-primary">About me</h1>
+                <h1 class="type-primary" data-aos="fade-up" data-aos-delay="50">About me</h1>
                 <p>I am a 19-year-old and currently a freshman studying
-                    Computer Science at HCMUT</p>
+                    Computer Science at HCMUT.</p>
                 <p>I have just been programming for 1 year since I got into University.
                     Before that, I was a student specialised in Chemistry.</p>
                 <p>However, I soon realized I don’t have the passion to pursue higher education in Chemistry.
@@ -94,75 +102,101 @@
             </div>
         </div>
         <div class="interest">
-            <h1 class="type-primary interest-intro">My current areas of interest</h1>
+            <h1 class="type-primary interest-intro" data-aos="fade-left">My current areas of interest</h1>
             <div class="interest-image-wrap">
-                <div class="interest-box algorithm">
+                <div class="interest-box algorithm" data-aos="fade-up" data-aos-delay="100" data-aos-offset="200">
                     <p>Algorithm</p>
 
                 </div>
-                <div class="interest-box web-design">
+                <div class="interest-box web-design" data-aos="fade-up" data-aos-delay="150" data-aos-offset="200">
                     <p>Web design</p>
 
                 </div>
-                <div class="interest-box computer-vision">
+                <div class="interest-box computer-vision" data-aos="fade-up" data-aos-delay="200" data-aos-offset="200">
                     <p>Computer vision</p>
 
                 </div>
             </div>
         </div>
-        <section class="timeline">
-            <article class="timeline-entry">
-                <div class="timeline-co">
-                    <p><a href="#">July</a></p>
-                    <ul>
-                        <li>2021.07.02 <span>Aliquam erat volutpat.</span></li>
-                        <li>2021.07.02 <span>Aliquam erat volutpat.</span></li>
-                        <li>2021.07.02 <span>Aliquam erat volutpat.</span></li>
-                        <li>2021.07.02 <span>Aliquam erat volutpat.</span></li>
-                        <li>2021.07.02 <span>Aliquam erat volutpat.</span></li>
-                    </ul>
-                </div>
-                <div class="timeline-description">
-                    <h2>Proin in ante nisi.
-                    </h2>
-                    <p>Proin in ante nisi. Aenean et arcu quis libero posuere facilisis. Aliquam erat volutpat. Ut ex
-                        purus, dapibus quis vehicula nec, posuere dapibus leo.
-                        Fusce sed tortor dolor. Nam finibus lorem sit amet congue molestie. Donec ac finibus velit.
-                        Morbi blandit eros vel egestas molestie. Nulla fermentum bibendum leo, commodo eleifend libero.
-                    </p>
-                </div>
-            </article>
-            <article class="timeline-entry">
-                <div class="timeline-co">
-                    <p><a href="#">June</a></p>
-                    <ul>
-                        <li>2021.07.02 <span>Aliquam erat volutpat.</span></li>
-                        <li>2021.07.02 <span>Aliquam erat volutpat.</span></li>
-                        <li>2021.07.02 <span>Aliquam erat volutpat.</span></li>
-                        <li>2021.07.02 <span>Aliquam erat volutpat.</span></li>
-                        <li>2021.07.02 <span>Aliquam erat volutpat.</span></li>
-                    </ul>
-                </div>
-                <div class="timeline-description">
-                    <h2>Proin in ante nisi.
-                    </h2>
-                    <p>Proin in ante nisi. Aenean et arcu quis libero posuere facilisis. Aliquam erat volutpat. Ut ex
-                        purus, dapibus quis vehicula nec, posuere dapibus leo.
-                        Fusce sed tortor dolor. Nam finibus lorem sit amet congue molestie. Donec ac finibus velit.
-                        Morbi blandit eros vel egestas molestie. Nulla fermentum bibendum leo, commodo eleifend libero.
-                    </p>
+        <div class="blogs">
+            <h1 class="type-primary" data-aos="fade-right">My blogs</h1>
+            <section class="timeline">
+                <article class="timeline-entry">
+                    <div class="timeline-co">
+                        <p><a href="#">July</a></p>
+                        <ul>
+                            <li>2021.07.02 <span>Aliquam erat volutpat.</span></li>
+                            <li>2021.07.02 <span>Aliquam erat volutpat.</span></li>
+                            <li>2021.07.02 <span>Aliquam erat volutpat.</span></li>
+                            <li>2021.07.02 <span>Aliquam erat volutpat.</span></li>
+                            <li>2021.07.02 <span>Aliquam erat volutpat.</span></li>
+                        </ul>
+                    </div>
+                    <div class="timeline-description">
+                        <h2>Proin in ante nisi.
+                        </h2>
+                        <p>Proin in ante nisi. Aenean et arcu quis libero posuere facilisis. Aliquam erat volutpat. Ut
+                            ex
+                            purus, dapibus quis vehicula nec, posuere dapibus leo.
+                            Fusce sed tortor dolor. Nam finibus lorem sit amet congue molestie. Donec ac finibus velit.
+                            Morbi blandit eros vel egestas molestie. Nulla fermentum bibendum leo, commodo eleifend
+                            libero.
 
-                </div>
-            </article>
-        </section>
+                        </p>
+                        <div class="button">
+                            <a href="" ">Read more</a><span><i class=" material-icons">double_arrow</i>
+                                </span>
+                        </div>
+
+                    </div>
+                </article>
+                <article class="timeline-entry">
+                    <div class="timeline-co">
+                        <p><a href="#">June</a></p>
+                        <ul>
+                            <li>2021.07.02 <span>Aliquam erat volutpat.</span></li>
+                            <li>2021.07.02 <span>Aliquam erat volutpat.</span></li>
+                            <li>2021.07.02 <span>Aliquam erat volutpat.</span></li>
+                            <li>2021.07.02 <span>Aliquam erat volutpat.</span></li>
+                            <li>2021.07.02 <span>Aliquam erat volutpat.</span></li>
+                        </ul>
+                    </div>
+                    <div class="timeline-description">
+                        <h2>Proin in ante nisi.
+                        </h2>
+                        <p>Proin in ante nisi. Aenean et arcu quis libero posuere facilisis. Aliquam erat volutpat. Ut
+                            ex
+                            purus, dapibus quis vehicula nec, posuere dapibus leo.
+                            Fusce sed tortor dolor. Nam finibus lorem sit amet congue molestie. Donec ac finibus velit.
+                            Morbi blandit eros vel egestas molestie. Nulla fermentum bibendum leo, commodo eleifend
+                            libero.
+                        </p>
+                        <div class="button">
+                            <a href="" ">Read more</a><span><i class=" material-icons">double_arrow</i>
+                                </span>
+                        </div>
+
+                    </div>
+                </article>
+            </section>
+        </div>
+
         <footer>
             <div class="footer-content">
 
-                <p>Credit ...</p>
+                <p>© 2021 Hoang Nhat Ha. All rights reserved</p>
+                <p>Icons made by Freepik from <a href="">www.flaticon.com</a></p>
             </div>
         </footer>
     </main>
-    <!-- </div> -->
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            // once: false
+        });
+    </script>
 </body>
 
 </html>
